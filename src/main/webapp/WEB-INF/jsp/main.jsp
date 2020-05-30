@@ -7,7 +7,7 @@
         </style>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Diploma</title>
+        <title>ProjectNAU</title>
     </head>
     <body>
         <div id="wrapper">

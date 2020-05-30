@@ -7,7 +7,7 @@
             <%@include file="/styles/change.css" %>   
         </style>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Diploma</title>
+        <title>ProjectNAU</title>
     </head>
     <body>
         <div id="wrapper">
