@@ -1,0 +1,51 @@
+header{
+    position: absolute;
+    width: 100%;
+    height: 7%;
+    bottom: 92%;
+    background-color: #474A51; 
+}
+
+body{
+    height: 100%;
+}
+
+#foot{
+    position: absolute;
+    top: 100%;
+}
+
+#myAc{
+    position: absolute;
+    width: 8%; 
+    left: 91%;
+    top: 20%;
+}
+
+#main{
+    width: 10%;
+    display: inline-block;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+}
+    #main:hover {  background: black; }
+    #main:active {background: rgba(0,0,0,.2); }
+    
+    .pr{
+        font: 20px Verdana bold;
+    }
+    
+#logo{
+    float: left;
+    right: 80%;
+    position: absolute;
+    border-radius: 40px;
+    top: 1.2%;
+}

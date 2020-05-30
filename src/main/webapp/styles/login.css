@@ -1,0 +1,43 @@
+#foot{
+    position: absolute;
+    top: 100%;
+}
+#log{
+    position: absolute;
+    right: 45%;
+    top: 10%;
+    width: 15%;
+}
+
+#pas{
+    position: absolute;
+    right: 45%;
+    top: 13%;
+    width: 15%;
+}
+
+#put{
+  position: absolute;
+  right: 46%;
+  display: inline-block;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  user-select: none;
+  padding: .5em 2em;
+  outline: none;
+  border: 2px solid;
+  border-radius: 1px;
+  transition: 0.2s;
+  top: 15.5%;
+  width: 13%;
+} 
+#put:hover {  background: black; }
+#put:active {background: rgba(0,0,0,.2); }
+
+#logo{
+    float: left;
+    right: 80%;
+    position: absolute;
+    border-radius: 40px;
+}

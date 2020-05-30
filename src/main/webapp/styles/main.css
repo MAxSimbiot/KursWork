@@ -1,0 +1,241 @@
+header{
+    width: 100%;
+    height: 7%;
+    background-color: #474A51; 
+}
+html, body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+#searchContent{
+    width: 100%;
+    height: 360px;
+    background-color: whitesmoke; 
+}
+
+
+
+#enter{
+    width: 47%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#add{
+    float: right;
+    left: 81%;
+    bottom: 92%;
+    position: absolute;
+    margin:  20px;
+    height: 30px;
+    background-color: #474A51;
+    color: darkgray;
+    width: 8%;
+    cursor: pointer;
+    font: 17px Verdana bold;
+}
+
+    
+
+#myAc{
+    float: right;
+    bottom: 94.1%;
+    width: 8%;
+    position: absolute;
+    left: 91%;
+    height: 30px;
+    background-color: #474A51;
+    color: darkgray;
+    font: 17px Verdana bold;
+    cursor: pointer;
+}
+
+
+#logo{
+    float: left;
+    right: 80%;
+    position: absolute;
+    border-radius: 60px;
+    top: 1.2%;
+}
+
+#search{
+    background-color: darkgray;
+    height: 80px;
+    width: 50%;
+    margin: 25px auto;
+    border-radius:10px ; 
+}
+
+.search{
+    float: left;
+    position: absolute;
+    bottom: 83.5%;
+    margin:20px 0 auto 20px;
+    height: 40px;
+    border-radius:5px;
+    border: 1px solid gray;
+    width: 35%;
+    font: 20px Verdana bold;
+    opacity: 1;
+}
+.searchButton{
+    float: left;
+    left: 61.7%;
+    position: absolute;
+    bottom: 83.5%;
+    margin:20px 25px auto auto;
+    height: 40px;
+    border-radius:5px;
+    border: 1px solid gray;
+    width: 11.5%;
+    background-color: #49AEEF;
+    color: white;
+    font: 19.5px Verdana bold;
+}
+
+.searchButton:hover{
+    background-color: #74c7fc;
+    cursor: pointer;
+}
+
+#content{
+    width: 90%;
+    margin: 20px 150px auto;
+    margin-left: 13%;
+}
+
+p.cat{
+    font: 20px Arial bold;
+    color: #444649;
+    display: inline;
+}
+
+#tab{
+    margin-top: 30px;
+    width: 100%;
+    font: 20px Arial bold;
+}
+
+td{
+    height: 60px;
+    color: #307cad;
+}
+
+/* 
+========================
+     test
+========================
+*/
+td {
+    
+    transition: all 0.5s;
+    position: relative;
+    right: 150px;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    
+    font-weight: bold;
+
+}
+.testo {
+    width:80%;
+    -webkit-font-smoothing:antialiased;
+    transform: perspective(1px) scale(0.99999) translate3d( 0, 0, 0);
+}
+.testo:hover {
+    transform: scale(1.1); 
+}
+.testo::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(51,102,255,0.05);
+    transition: all 0.3s;
+}
+.testo:hover::before {
+    opacity: 0 ;
+    transform: scale(0.5,0.5);
+}
+.testo::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s;
+    border: 1px solid rgba(255,255,255,0.5);
+    transform: scale(1.2,1.2);
+}
+.testo:hover::after {
+    opacity: 1;
+    transform: scale(1,1);
+}
+/* 
+========================
+     test
+========================
+*/
+a{
+    text-decoration: none;
+    color: dimgray;
+}
+
+#items{
+    width: 90%;
+    margin: 20px;
+    margin-left: 12%;
+} 
+p.cat1{
+    font: 20px Arial bold;
+    color: #444649;
+}
+
+.iImg{
+    width: 250px;
+    height: 170px;
+}
+
+.itemBlocks{
+    margin: 20px;
+    display: inline-block;
+}
+
+#foot{
+    width: 100%;
+    background-color: #EDEDED;
+    height: 150px;
+}
+
+#cop{
+   width: 47%;   
+   margin: 0 auto;
+}
+
+#list1{
+    width: 12%;
+    font:10px Verdana;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

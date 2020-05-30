@@ -1,0 +1,80 @@
+header{
+    width: 100%;
+    height: 7%;
+    background-color: #474A51; 
+    position: absolute;
+}
+
+#logo{
+    float: left;
+    right: 80%;
+    position: absolute;
+    border-radius: 60px;
+    top: 1.2%;
+}
+
+#myAc{
+    position: absolute;
+    width: 8%; 
+    left: 91%;
+    top: 20%;
+}
+
+#pas3{
+     position: absolute;
+    right: 45%;
+    top: 14%;
+    width: 15%;
+}
+
+#pas4{
+    position: absolute;
+    right: 45%;
+    top: 18%;
+    width: 15%;
+}
+
+#otci{
+    position: absolute;
+    right: 45%;
+    top: 22%;
+    width: 15%;
+}
+
+#nph{
+   position: absolute;
+    right: 45%;
+    top: 26%;
+    width: 15%;  
+}
+
+#nEm{
+     position: absolute;
+    right: 45%;
+    top: 30%;
+    width: 15%;    
+}
+
+#acc1{
+  position: absolute;
+  right: 46%;
+  display: inline-block;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  user-select: none;
+  padding: .5em 2em;
+  outline: none;
+  border: 2px solid;
+  border-radius: 1px;
+  transition: 0.2s;
+  top: 33%;
+  width: 13%;
+} 
+#acc1:hover {  background: black; }
+#acc1:active {background: rgba(0,0,0,.2); }
+
+#foot{
+    position: absolute;
+    top: 100%;
+}

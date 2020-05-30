@@ -1,0 +1,238 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+body {
+    background: #ffffff;
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #1e9dcc;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+}
+a:hover {
+    color: #ffffff;
+    background: #7DB3FF;
+}
+
+.form {
+    background: rgba(255, 255,255, 0.9);
+    padding: 100px;
+    max-width: 400px;
+    max-height: 500px;
+    margin: 100px auto;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+}
+
+.tab-group {
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    top: 85px;
+    left: 560px;
+
+
+
+}
+.tab-group:after {
+    content: "";
+    display: table;
+    clear: none;
+}
+.tab-group li a {
+    border-top: 4px solid #7cba30;
+    border-radius: 3px;
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    background: #cce0da;
+    color: #a0b3b0;
+    font-size: 20px;
+    float: right;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+}
+.tab-group li a:hover {
+
+}
+.tab-group .active a {
+    background: #ffffff;
+    color: #B0ABAB;
+    display: inline;
+    border-top: 4px solid #94dd39;
+    border-radius: 3px;
+
+}
+
+.tab-content > div:last-child {
+    display: none;
+}
+
+h1 {
+    text-align: center;
+    color: #B0ABAB;
+    font-weight: 300;
+    margin: 0 0 40px;
+}
+
+label {
+    position: absolute;
+    -webkit-transform: translateY(6px);
+    transform: translateY(6px);
+    left: 13px;
+    color: #B0ABAB;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    -webkit-backface-visibility: hidden;
+    pointer-events: none;
+    font-size: 20px;
+}
+label .req {
+    margin: 2px;
+    color: #8d9188;
+}
+
+label.active {
+    -webkit-transform: translateY(50px);
+    transform: translateX(200px);
+    left: 2px;
+    font-size: 14px;
+}
+label.active .req {
+    opacity: 2;
+    color: #ffffff;
+    
+}
+
+label.highlight {
+    color: #ffffff;
+}
+
+input,textarea {
+    font-size: 15px;
+    display: block;
+    padding: 5px 10px;
+    background: none;
+
+    border: 1px solid #a0b3b0;
+    color: #010b14;
+    border-radius: 4px;
+    -webkit-transition: border-color .25s ease, box-shadow .25s ease;
+    transition: border-color .25s ease, box-shadow .25s ease;
+}
+input:focus, textarea:focus {
+    outline: 0;
+    border-color: #1ab188;
+}
+
+textarea {
+    border: 2px solid #a0b3b0;
+    resize: vertical;
+}
+
+.field-wrap {
+    position: relative;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.top-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.top-row > div {
+    float: left;
+    width: 50%;
+    margin-right: 10%;
+}
+.top-row > div:last-child {
+    margin: 0;
+}
+
+.button {
+    position: relative;
+    margin-left: -45px;
+    margin-top: 20px;
+    outline: none;
+    padding: 15px 0;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: .1em;
+    background: #0a7adb;
+    color: #ffffff;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    -webkit-appearance: none;
+}
+.button:hover, .button:focus {
+    background: #1d88e5;
+}
+
+.button-block {
+    
+    display: block;
+    width: 300px;
+    height: 40px;
+
+}
+
+
+
+.forgot {
+    margin-top: 10px;
+    text-align: right;
+    font-size: 0.8rem;
+}
+.image{
+    position: absolute;
+    left: 30%;
+    z-index: 2;
+}
+.hhr{
+    position: relative;
+    top: 55px;
+    z-index: 1;
+}
+.profile{
+    position: absolute;
+    left: 900px;
+    top: 20px;
+}
+.add{
+    display: inline-block;
+    position: absolute;
+    left: 1030px;
+    top: 10px;
+    color: white;
+    text-decoration: none;
+    padding: .5em 2em;
+    outline: none;
+    border-width: 2px 0;
+    border-style: solid none;
+    border-color: #FDBE33 #000 #D77206;
+    border-radius: 6px;
+    background: #FC550D;
+    transition: 0.2s;
+}
+.add:hover { 
+    background: #FC7D47;
+}
+.number{
+    position: absolute;
+    left: 650px;
+}
